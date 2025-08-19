@@ -1,0 +1,9 @@
+pytest>=7.0.0
+black>=22.0.0
+phantom-test-framework>=1.0.0
+missing-dev-tools>=2.0.0
+fake-linting-package>=1.2.0
+
+# Additional editable installs
+-e ./tools/missing-dev-tools
+-e ./scripts/phantom-automation
